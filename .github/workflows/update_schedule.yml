@@ -2,8 +2,11 @@ name: Update Schedule
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # Каждые 3 часа
-  workflow_dispatch: # Возможность запустить вручную
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build:
@@ -21,12 +24,18 @@ jobs:
           pip install requests beautifulsoup4 python-dateutil
           
       - name: Run parser
-        run: python live-programm/scripts/parser.py
+        run: |
+          # Переходим в папку проекта если она есть, иначе запускаем из корня
+          if [ -d "live-programm" ]; then
+            python live-programm/scripts/parser.py
+          else
+            python scripts/parser.py
+          fi
         
       - name: Commit and push if changed
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add live-programm/data/schedule.json
+          git add live-programm/data/schedule.json || git add data/schedule.json
           git commit -m "Update schedule" || exit 0
           git push
