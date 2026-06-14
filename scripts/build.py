@@ -4,7 +4,7 @@ import json, shutil, sys
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
-DOCS = ROOT / "docs"
+DOCS = ROOT / "public"
 DATA = ROOT / "data"
 DOCS.mkdir(exist_ok=True)
 (DOCS / "data").mkdir(exist_ok=True)
@@ -46,4 +46,4 @@ for f in DATA.glob("*.json"):
 for f in DATA.glob("*.xml"):
     shutil.copy(f, DOCS / "data" / f.name)
 
-print("\n✅ docs/ собран")
+print("\n✅ public/ собран")

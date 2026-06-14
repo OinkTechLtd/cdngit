@@ -4,11 +4,9 @@
   "description": "Телепрограмма с поисковым роботом — расписание каналов + прямые эфиры",
   "type": "commonjs",
   "scripts": {
-    "build": "node scripts/epg-robot.js && node scripts/parse-playlist.js && node scripts/build-schedule.js && node scripts/build-site.js",
-    "robot": "node scripts/epg-robot.js",
-    "playlist": "node scripts/parse-playlist.js",
-    "schedule": "node scripts/build-schedule.js",
-    "site": "node scripts/build-site.js"
+    "build": "pip3 install -r requirements.txt && python3 scripts/epg_robot.py && python3 scripts/build.py",
+    "robot": "python3 scripts/epg_robot.py",
+    "site": "python3 scripts/build.py"
   },
   "dependencies": {
     "axios": "^1.6.2"
