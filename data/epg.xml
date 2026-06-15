@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv date="20260615075150 +0300" source-info-name="live-programm.oinktech.ltd" generator-info-name="OinkTech EPG Robot v2">
+<tv date="20260615075302 +0300" source-info-name="live-programm.oinktech.ltd" generator-info-name="OinkTech EPG Robot v2">
   <channel id="perviy">
     <display-name lang="ru">Первый канал</display-name>
     <url>https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8</url>
