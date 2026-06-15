@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv date="20260615071755 +0300" source-info-name="live-programm.oinktech.ltd" generator-info-name="OinkTech EPG Robot v2">
+<tv date="20260615072414 +0300" source-info-name="live-programm.oinktech.ltd" generator-info-name="OinkTech EPG Robot v2">
   <channel id="perviy">
     <display-name lang="ru">Первый канал</display-name>
     <url>https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8</url>
@@ -2252,9 +2252,6 @@
   <programme start="20260615061000 +0300" stop="20260615070000 +0300" channel="ctc">
     <title lang="ru">С лeгким утрoм! 4 с.</title>
   </programme>
-  <programme start="20260615061500 +0300" stop="20260615062000 +0300" channel="ctc">
-    <title lang="ru">Отель у овечек (Привидение)</title>
-  </programme>
   <programme start="20260615061500 +0300" stop="20260615062500 +0300" channel="ctc">
     <title lang="ru">Как лечить удава?</title>
   </programme>
@@ -2936,9 +2933,6 @@
   <programme start="20260615053000 +0300" stop="20260615063000 +0300" channel="tnt">
     <title lang="ru">FIM Speedway Grand Prix. Rounds 3 and 4: Grand Prix of Great Britain</title>
   </programme>
-  <programme start="20260615055000 +0300" stop="20260615062000 +0300" channel="tnt">
-    <title lang="ru">Интерны. 182 с.</title>
-  </programme>
   <programme start="20260615060000 +0300" stop="20260615080000 +0300" channel="tnt">
     <title lang="ru">Плей-лист [16+]</title>
   </programme>
@@ -3551,9 +3545,6 @@
   <programme start="20260615173000 +0300" stop="20260615182000 +0300" channel="5tv">
     <title lang="ru">След (Черепаха на спине)</title>
   </programme>
-  <programme start="20260615040000 +0300" stop="20260615062000 +0300" channel="tvc">
-    <title lang="ru">Настроение [6+]</title>
-  </programme>
   <programme start="20260615054500 +0300" stop="20260615063000 +0300" channel="tvc">
     <title lang="ru">Мой герой. Владимир Канухин [12+]</title>
   </programme>
@@ -3568,9 +3559,6 @@
   </programme>
   <programme start="20260615060000 +0300" stop="20260615082000 +0300" channel="tvc">
     <title lang="ru">Настроение [6+]</title>
-  </programme>
-  <programme start="20260615060000 +0300" stop="20260615062000 +0300" channel="tvc">
-    <title lang="ru">Sinteza săptăminii</title>
   </programme>
   <programme start="20260615062000 +0300" stop="20260615065000 +0300" channel="tvc">
     <title lang="ru">Fantezia gustului</title>
@@ -3955,9 +3943,6 @@
   </programme>
   <programme start="20260615053500 +0300" stop="20260615070000 +0300" channel="o_tv">
     <title lang="ru">Я свободен, я ничей</title>
-  </programme>
-  <programme start="20260615055500 +0300" stop="20260615062000 +0300" channel="o_tv">
-    <title lang="ru">Кулинарные приключения в Китае (Куньмин, провинция Юньнань)</title>
   </programme>
   <programme start="20260615061000 +0300" stop="20260615073000 +0300" channel="o_tv">
     <title lang="ru">Я свободен, я ничей [16+]</title>
@@ -4850,9 +4835,6 @@
   <programme start="20260615230000 +0300" stop="20260616000000 +0300" channel="sas">
     <title lang="ru">Клон (с.240) [16+]</title>
   </programme>
-  <programme start="20260615060000 +0300" stop="20260615062000 +0300" channel="chetv">
-    <title lang="ru">Улётное видео [16+]</title>
-  </programme>
   <programme start="20260615062000 +0300" stop="20260615064500 +0300" channel="chetv">
     <title lang="ru">Улётное видео [16+]</title>
   </programme>
@@ -4939,9 +4921,6 @@
   </programme>
   <programme start="20260615230000 +0300" stop="20260616000000 +0300" channel="chetv">
     <title lang="ru">Опасные связи [18+]</title>
-  </programme>
-  <programme start="20260615050500 +0300" stop="20260615062000 +0300" channel="dom_kino">
-    <title lang="ru">Дневник мамы первоклассника [16+]</title>
   </programme>
   <programme start="20260615060000 +0300" stop="20260615073000 +0300" channel="dom_kino">
     <title lang="ru">Снежная королева: Зазеркалье.</title>
@@ -5424,9 +5403,6 @@
     <title lang="ru">Футбол. Чемпионат мира-2026. Бельгия - Египет. Трансляция из США</title>
   </programme>
   <programme start="20260615053900 +0300" stop="20260615063900 +0300" channel="russia24">
-    <title lang="ru">Вести</title>
-  </programme>
-  <programme start="20260615054500 +0300" stop="20260615062400 +0300" channel="russia24">
     <title lang="ru">Вести</title>
   </programme>
   <programme start="20260615060800 +0300" stop="20260615070000 +0300" channel="russia24">
@@ -6617,14 +6593,8 @@
   <programme start="20260615060341 +0300" stop="20260615073822 +0300" channel="ani_com">
     <title lang="ru">Гадкий я</title>
   </programme>
-  <programme start="20260615060938 +0300" stop="20260615062159 +0300" channel="ani_com">
-    <title lang="ru">Поймай Тинипин! Королевство эмоций</title>
-  </programme>
   <programme start="20260615061100 +0300" stop="20260615063200 +0300" channel="ani_com">
     <title lang="ru">Великий Человек-паук – 8 с.</title>
-  </programme>
-  <programme start="20260615061142 +0300" stop="20260615062049 +0300" channel="ani_com">
-    <title lang="ru">Х/ф «Ну, погоди! Эпизод 12»</title>
   </programme>
   <programme start="20260615061156 +0300" stop="20260615062517 +0300" channel="ani_com">
     <title lang="ru">Т/с «2016 год - Джонни Бони Бо (Е.Скворцова)»</title>
@@ -8191,9 +8161,6 @@
   </programme>
   <programme start="20260615055000 +0300" stop="20260615063500 +0300" channel="nickel">
     <title lang="ru">Барбапапа и семья!</title>
-  </programme>
-  <programme start="20260615060000 +0300" stop="20260615062300 +0300" channel="nickel">
-    <title lang="ru">Губка Боб Квадратные Штаны. Солёная губка / У компа была собака.</title>
   </programme>
   <programme start="20260615060000 +0300" stop="20260615062500 +0300" channel="nickel">
     <title lang="ru">SpongeBob Pantaloni Pătrați Sezonul 13 - Episodul 281</title>
